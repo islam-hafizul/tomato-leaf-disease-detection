@@ -151,11 +151,14 @@ activemq-data/
 .env
 .envrc
 .venv
+.venv-py312
 env/
 venv/
+venv-py312/
 ENV/
 env.bak/
 venv.bak/
+venv-py312.bak/
 
 # Spyder project settings
 .spyderproject
@@ -216,3 +219,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/raw/
+
+# Datasets
+data/raw/
+data/processed/
+data/splits/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+.python-version
+
+reports/
