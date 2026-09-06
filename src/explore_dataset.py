@@ -1,8 +1,6 @@
 from pathlib import Path
 
 DATASET_DIR = Path("data/raw/mendeley")
-if not DATASET_DIR.exists():
-    DATASET_DIR = Path("data/raw/Mendeley")
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp", ".tif", ".tiff"}
 

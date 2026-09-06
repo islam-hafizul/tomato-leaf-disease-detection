@@ -3,8 +3,6 @@ from collections import Counter
 from PIL import Image
 
 DATASET_DIR = Path("data/raw/mendeley")
-if not DATASET_DIR.exists():
-    DATASET_DIR = Path("data/raw/Mendeley")
 
 # Common image extensions we expect
 IMAGE_EXTENSIONS = {
