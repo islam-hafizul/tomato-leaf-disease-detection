@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp", ".tif", ".tiff"}
 
-DATASET_DIR = Path("data/raw/Mendeley")
+DATASET_DIR = Path("data/raw/Dataset of Tomato Leaves")
 plantvillage_dir = DATASET_DIR / "plantvillage" / "Preprocessed data"
 taiwan_dir = DATASET_DIR / "taiwan" / "Preprocessed data" / "Test"
 

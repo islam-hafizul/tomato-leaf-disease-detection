@@ -1,3 +1,4 @@
+# Create train/validation split
 from pathlib import Path
 import hashlib
 import csv
@@ -15,7 +16,7 @@ DATASET_ROOT = (
     PROJECT_ROOT
     / "data"
     / "raw"
-    / "Mendeley"
+    / "Dataset of Tomato Leaves"
     / "plantvillage"
     / "Preprocessed data"
 )

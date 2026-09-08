@@ -2,7 +2,7 @@ from pathlib import Path
 from collections import Counter
 from PIL import Image
 
-DATASET_DIR = Path("data/raw/mendeley")
+DATASET_DIR = Path("data/raw/Dataset of Tomato Leaves")
 
 # Common image extensions we expect
 IMAGE_EXTENSIONS = {

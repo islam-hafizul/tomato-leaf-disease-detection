@@ -220,11 +220,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-data/raw/
-
-# Datasets
+# Dataset
 data/raw/
 data/processed/
+
+# Keep reproducible split manifests
+!data/splits/
+!data/splits/*.csv
 
 # Python
 __pycache__/

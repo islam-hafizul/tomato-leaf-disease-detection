@@ -1,6 +1,6 @@
 from pathlib import Path
 
-DATASET_DIR = Path("data/raw/mendeley")
+DATASET_DIR = Path("data/raw/Dataset of Tomato Leaves")
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp", ".tif", ".tiff"}
 

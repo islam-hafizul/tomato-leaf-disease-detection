@@ -1,3 +1,4 @@
+# Dataset leakage/duplicate checking
 from pathlib import Path
 from collections import defaultdict
 import hashlib
@@ -8,7 +9,7 @@ import hashlib
 # ============================================================
 
 
-DATASET_ROOT = Path("data/raw/Mendeley")
+DATASET_ROOT = Path("data/raw/Dataset of Tomato Leaves")
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
@@ -105,7 +106,7 @@ def print_duplicates(title, duplicates, max_groups=20):
 def main():
 
     print("=" * 70)
-    print("MENDELEY DATASET DUPLICATE / LEAKAGE AUDIT")
+    print("DATASET OF TOMATO LEAVES DUPLICATE / LEAKAGE AUDIT")
     print("=" * 70)
 
     # --------------------------------------------------------

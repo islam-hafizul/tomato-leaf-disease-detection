@@ -8,7 +8,7 @@ from PIL import Image
 # ============================================================
 
 
-DATASET_ROOT = Path("data/raw/Mendeley")
+DATASET_ROOT = Path("data/raw/Dataset of Tomato Leaves")
 
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
@@ -128,7 +128,7 @@ def print_image_audit(title, directory):
 def main():
 
     print("=" * 60)
-    print("MENDELEY TOMATO LEAF DATASET AUDIT")
+    print("DATASET OF TOMATO LEAVES AUDIT")
     print("=" * 60)
 
     # --------------------------------------------------------
